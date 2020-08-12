@@ -1,0 +1,151 @@
+<html>
+<head>
+<meta name="description" content="Online Perpetual Eucharistic Adoration of the Blessed Sacrament.">
+<meta name="keywords" content="Eucharist,eucharist,Eucharistic,Adoration,Perpetual,Blessed Sacrament,Exposition,Real Presence,Savior,Jesus,holy hour,adoration chapel,Catholic, prayer, devotion, suffering, glorious, joyful, sorrowful, God, rosary, Divine Mercy, chaplet, perpetual, online, webcam, Pink Sisters, Holy Spirit">
+<title>Welcome to Savior.org!</title>
+<link rel="StyleSheet" href="inc/styles.css" type="text/css">
+<script language="JavaScript" src="inc/main.js"></script>
+<script language="JavaScript">
+<!--
+var ImageReloaded = 0;
+var BaseURL = "/cam/image_00001.jpg";
+var theTimer = setTimeout('reloadImage()', 1);
+function ImageLoaded() 
+{
+  ImageReloaded = 1;
+}
+
+function reloadImage() {
+    theTimer = setTimeout('reloadImage()', 8000);
+    if (ImageReloaded = 1) {
+        theDate = new Date();
+
+        
+        var xhr = new XMLHttpRequest();
+        xhr.open('HEAD', '/cam/image_00001.jpg', true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                if (xhr.status == 200) {
+                    retval = "";
+                    for (var i = 0; i <= xhr.responseText.length - 1; i++)
+                        retval += String.fromCharCode(xhr.responseText.charCodeAt(i) & 0xff);
+                    if (xhr.getResponseHeader('Content-Length') > 1000) {
+                        var url = BaseURL;
+						url += '?dummy=' + theDate.getTime().toString(10);
+						document.theImage.src = url;
+						ImageReloaded = 0;
+                    };
+                }
+            }
+        };
+        xhr.send(null);
+    }
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+<body topmargin=0 leftmargin=0 rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" bgcolor="#FDC689" background="images/back.jpg">
+<div align="center"> 
+  <table width="810" border="0" cellspacing="0" cellpadding="0" align="left">
+    <tr> 
+      <td width = "55"><img src="images/fill.gif" width="25"></td>
+      <td width="765" height="20" align="left" valign="top"> 
+        <table width="765" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="765" height="20" align="left" valign="top"> <img src="images/fill.gif" width="1" height="20" border="0" alt=""
+		></td>
+          </tr>
+        </table>
+        <table width="765" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="765" align="left" valign="top"> <img src="images/top1.gif" width="392" height="24" border="0" alt=""		
+		><img src="images/fill.gif" width="373" height="24" border="0" alt=""
+		></td>
+          </tr>
+          <tr> 
+            <td width="765" align="left" valign="top"> <img src="images/top2.gif" width="392" height="30" border="0" alt=""><a href="http://www.savior.org/eucharist/" OnMouseOver="onoff('menu13', 'over13')" OnMouseOut="onoff('menu13', 'out13')"
+		><img src="images/opt1.gif" width="98" height="30" border="0" name="menu13" alt="EUCHARIST"								
+></a><a href="http://www.savior.org/saints/" OnMouseOver="onoff('menu14', 'over14')" OnMouseOut="onoff('menu14', 'out14')"
+		><img src="images/opt2.gif" width="68" height="30" border="0" name="menu14" alt="SAINTS"												
+		></a><a href="http://www.savior.org/petitions/" OnMouseOver="onoff('menu15', 'over15')" OnMouseOut="onoff('menu15', 'out15')"
+		><img src="images/opt3.gif" width="83" height="30" border="0" name="menu15" alt="PETITIONS"										
+		></a><a href="http://www.savior.org/testimonials/" OnMouseOver="onoff('menu16', 'over16')" OnMouseOut="onoff('menu16', 'out16')"
+		><img src="images/opt4.gif" width="97" height="30" border="0" name="menu16" alt="TESTIMONIALS"										
+		></a></td>
+          </tr>
+        </table>
+        <table width="765" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="765" height="20" align="left" valign="top"><img src="images/top5.gif"  border="0" alt=""		
+		><img src="images/top4-2.gif" border="0" alt=""
+		></td>
+          </tr>
+        </table>
+        <table width="765" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" align="left" valign="top" background="images/home-back.gif"><a href="http://www.savior.org/devotions.htm" OnMouseOver="onoff('menu17', 'over17')" OnMouseOut="onoff('menu17', 'out17')"
+		><img src="images/button-devo.gif" border="0" name="menu17" alt="DEVOTIONS"								
+		></a><br>
+              <table width="206" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td><img src="images/fill.gif" height="1" width="15"></td>
+                  <td bgcolor="#F2D599" background="images/fill.gif"><br>
+                    <p><b>Savior.org's</b> mission is that of increasing awareness 
+                      and devotion to our Lord in the Most Blessed Sacrament. 
+                      We also seek to bring the live image of His living Presence 
+                      to the homebound, the workplace, and to remote areas around 
+                      the world.</p>
+                    <p>&nbsp;</p>
+                  <p>You must have JavaScript enabled on your browser to be able to view the live image.</p></td>
+</td>
+                </tr>
+              </table>
+            </td>
+            <td width="554" align="center" valign="middle" background="images/video-backtop.jpg"><br>
+<SCRIPT LANGUAGE="JavaScript">
+document.write('<img name="theImage" onload="ImageLoaded()" src="index.html" height="240" width="352" ');
+document.write('alt="Live image">');
+</SCRIPT>
+            </td>
+          </tr>
+          <tr> 
+            <td width="554" align="center" valign="middle" background="images/video-backbottom.jpg">	
+              <a href="http://www.savior.org/wwrc/"><img src="images/button-rosary.gif" width="101" height="57" border="0" alt=""					
+					></a><img src="images/hands.gif" width="57" height="57" border="0" alt=""
+					><a href="http://www.savior.org/wwdmc/"><img src="images/button-chaplet.gif" width="167" height="57" border="0" alt=""
+					></a></td>
+          </tr>
+        </table>
+        <table width="765" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+          <td colspan="3" height="20" align="left" valign="top"> <a href="javascript:is_ok=0;opnr('about.htm')"><img src="images/button-home.gif" width="77" height="21" border="0" alt=""		
+		></a><a href="mailto:saviororgweb@yahoo.com"><img src="images/button-contact.gif" width="86" height="21" border="0" alt=""
+		></a><a href="javascript:is_ok=0;opnr('help.htm')"><img src="images/button-help.gif" width="86" height="21" border="0" alt=""
+		></a><img src="images/bottom-bar.gif" width="516" height="21" border="0" alt=""
+		></td>
+          </tr>
+		<tr>
+            <td width="325"><img src="images/fill.gif" width="325" height="1" align="top"></td>
+            <td width="330" align="center"><font color="#D67D13">Click</font> 
+              <a href="index.html#" onClick="MM_openBrWindow('lowband.htm','lowband','width=352,height=240')">here for a low-bandwidth desktop</a> <font color="#D67D13">version 
+              of <br>
+              the Blessed Sacrament, or</font> <a href="index.html#" onClick="MM_openBrWindow('static.htm','static','width=352,height=240')">here for an offline 
+              still image&nbsp;</a><a href="index.html#" onClick="MM_openBrWindow('highband.htm','lowband','width=352,height=240')">.</a><br /><br /><a href="http://www.adorationsisters.org/" target="_blank">Visit the Holy Spirit Adoration Sisters</a></td>
+            <td width="110"><img src="images/fill.gif" width="110" height="1" align="top"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817809-1";
+urchinTracker();
+</script>
+</body>
+</html>
