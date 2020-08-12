@@ -12,7 +12,7 @@ var BaseURL = "/cam/image_00001.jpg";
 var theTimer = setTimeout('reloadImage()', 1);
 function ImageLoaded() 
 {
-  ImageReloaded = 1;
+  ImageReloaded = 0;
 }
 
 function reloadImage() {
@@ -105,10 +105,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
               </table>
             </td>
             <td width="554" align="center" valign="middle" background="images/video-backtop.jpg"><br>
-<SCRIPT LANGUAGE="JavaScript">
-document.write('<img name="theImage" onload="ImageLoaded()" src="index.html" height="240" width="352" ');
-document.write('alt="Live image">');
-</SCRIPT>
+              <img name="theImage" src="images/image_00001.jpg" height="240" width="352" alt="Live image">
             </td>
           </tr>
           <tr> 
